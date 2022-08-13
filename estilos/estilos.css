@@ -1,0 +1,482 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto+Slab:wght@200&family=Square+Peg&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+}
+h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  text-align: center;
+  margin: 20px 10px 0px 10px;
+}
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  color: black;
+  font-size: 15px;
+  text-align: center;
+  line-height: 25px;
+  word-spacing: 2px;
+  padding: 20px;
+}
+main {
+  min-height: 100vh;
+  /* background-color: aqua; */
+}
+nav {
+  background-color: grey;
+  /* background-image: linear-gradient(white,grey); */
+  padding: 40px;
+}
+.list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+/* footer */
+.gridFooter {
+  display: grid;
+  background-color: grey;
+  width: 100%;
+  grid-template-areas:
+    "div1 div1 div2"
+    "div3 div3 div3";
+  height: 400px;
+  /* box-shadow: 0px 0px 20px 5px rgb(15 15 15 / 10%); */
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.divFooter1 {
+  /* background-color: brown; */
+  grid-area: div1;
+  margin: 15px;
+  /* box-shadow: 0px 0px 20px 5px rgb(15 15 15 / 10%); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.divFooter2 {
+  /* background-color: brown; */
+  grid-area: div2;
+  margin: 15px;
+  /* box-shadow: 0px 0px 20px 5px rgb(15 15 15 / 10%); */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.divFooter3 {
+  /* background-color: brown; */
+  grid-area: div3;
+  margin: 15px;
+  /* box-shadow: 0px 0px 20px 5px rgb(15 15 15 / 10%); */
+  display: flex;
+  align-items: center;
+}
+.divIconoFooter {
+  display: flex;
+  width: 80px;
+  height: 120px;
+  /* background-color: aqua; */
+  flex-direction: column;
+  align-items: center;
+}
+.icono {
+  width: 60px;
+  height: 60px;
+}
+.logoFooter {
+  /* background-color: aqua; */
+  width: 1200px;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.iconoKzc {
+  width: 30%;
+  height: 100%;
+}
+
+/* home */
+
+.divIconoIndex{
+  /* background-color: aqua; */
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+.classIconoIndex{
+  width: 200 px;
+  height: 100%;
+}
+
+.grilla {
+  display: grid;
+  /* background-color: black; */
+  width: 100%;
+  height: 1200px;
+  grid-template-areas:
+    "gridindex1 gridindex3"
+    "gridindex2 gridindex3"
+    "gridindex4 gridindex3";
+  grid-template-columns: 4fr 1fr;
+}
+.gridIndex1 {
+  /* background-color: blue; */
+  grid-area: gridindex1;
+  margin: 15px;
+  box-shadow: 0px 0px 20px 5px rgb(15 15 15 / 10%);
+  display: flex;
+}
+.gridIndex2 {
+  /* background-color: red; */
+  grid-area: gridindex2;
+  margin: 15px;
+  box-shadow: 0px 0px 20px 5px rgb(15 15 15 / 10%);
+  display: flex;
+}
+.gridIndex3 {
+  /* background-color: orange; */
+  grid-area: gridindex3;
+  margin: 15px;
+  box-shadow: 0px 0px 20px 5px rgb(15 15 15 / 10%);
+  display: flex;
+  flex-direction: column;
+}
+.gridIndex4 {
+  /* background-color: brown; */
+  grid-area: gridindex4;
+  margin: 15px;
+  box-shadow: 0px 0px 20px 5px rgb(15 15 15 / 10%);
+  display: flex;
+}
+.childIndex {
+  /* background-color: black; */
+  width: 737px;
+  height: 370px;
+  box-shadow: 0px 0px 20px 5px rgb(15 15 15 / 10%);
+}
+.childIndex2 {
+  /* background-color: red; */
+  width: 739px;
+  height: 370px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  /* box-shadow: 0px 0px 20px 5px rgb(15 15 15 / 10%); */
+}
+.imgsIndex {
+  width: 100%;
+  height: 100%;
+}
+
+.childAside {
+  background-color: brown;
+  width: 370px;
+  height: 370px;
+}
+.imgsAside {
+  width: 100%;
+  height: 370px;
+}
+
+/* productos */
+.flexContainerProductos {
+  display: flex;
+  /* background-color: aqua; */
+  justify-content: space-between;
+  margin: 0px 40px 0px 40px;
+}
+.childProductos {
+  /* background-color: brown; */
+  height: 800px;
+  width: 400px;
+  margin: 15px 15px 15px 15px;
+  box-shadow: 0px 0px 20px 5px rgb(15 15 15 / 10%);
+  transition: 0.6s transform;
+}
+.childProductos:hover {
+  transform: scale(1.1);
+}
+.imgsProductos {
+  width: 100%;
+  height: 266px;
+  margin: 0px 0px 20px 0px;
+}
+
+/* Nosotros */
+
+
+.flexContainerNosotros {
+  display: flex;
+  /* background-color: aqua; */
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.childNosotros {
+  /* background-color: brown; */
+  height: 800px;
+  width: 400px;
+  margin: 15px 15px 15px 15px;
+  display: flex;
+  box-shadow: 0px 0px 20px 5px rgb(15 15 15 / 10%);
+  flex-direction: column;
+}
+.divImgsNosotros {
+  width: 100%;
+  height: 45%;
+}
+.imgsNosotros {
+  width: 100%;
+  height: 100%;
+}
+
+/* Galeria */
+.gridGaleria {
+  width: 100%;
+  /* background-color: aqua; */
+  display: grid;
+  height: 100%;
+  grid-template-areas:
+    "div1 div2 div3"
+    "div4 div5 div6";
+  justify-content: center;
+}
+.divGaleria1 {
+  /* background-color: brown; */
+  grid-area: div1;
+  margin: 30px 30px 30px 30px;
+  box-shadow: 0px 0px 20px 5px rgb(15 15 15 / 10%);
+  height: 500px;
+  width: 500px;
+}
+.divGaleria2 {
+  /* background-color: brown; */
+  grid-area: div2;
+  margin: 30px 30px 30px 30px;
+  box-shadow: 0px 0px 20px 5px rgb(15 15 15 / 10%);
+  height: 500px;
+  width: 500px;
+}
+.divGaleria3 {
+  /* background-color: brown; */
+  grid-area: div3;
+  margin: 30px 30px 30px 30px;
+  box-shadow: 0px 0px 20px 5px rgb(15 15 15 / 10%);
+  height: 500px;
+  width: 500px;
+}
+.divGaleria4 {
+  /* background-color: brown; */
+  grid-area: div4;
+  margin: 30px 30px 30px 30px;
+  box-shadow: 0px 0px 20px 5px rgb(15 15 15 / 10%);
+  height: 500px;
+  width: 500px;
+}
+.divGaleria5 {
+  /* background-color: brown; */
+  grid-area: div5;
+  margin: 30px 30px 30px 30px;
+  box-shadow: 0px 0px 20px 5px rgb(15 15 15 / 10%);
+  height: 500px;
+  width: 500px;
+}
+.divGaleria6 {
+  /* background-color: brown; */
+  grid-area: div6;
+  margin: 30px 30px 30px 30px;
+  box-shadow: 0px 0px 20px 5px rgb(15 15 15 / 10%);
+  height: 500px;
+  width: 500px;
+}
+.imgsGaleria {
+  width: 100%;
+  height: 100%;
+}
+/* contacto */
+
+.containerFormContacto {
+  display: flex;
+  /* background-color: aqua; */
+  justify-content: center;
+  margin: 20px;
+}
+.divIconoMail {
+  display: flex;
+  justify-content: center;
+}
+.divParrafoContacto {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+.divIconoComunicacion {
+  display: flex;
+  /* background-color: aqua; */
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 100px;
+  margin: 40px;
+}
+
+/* mobile */
+
+@media (max-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  /* productos */
+  .flexContainerProductos {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .imgsProductos {
+    width: 100%;
+    height: 266px;
+    margin: 0px 0px 20px 0px;
+  }
+  .childProductos {
+    /* background-color: brown; */
+    height: 800px;
+    width: 350px;
+    margin: 15px 15px 15px 15px;
+    box-shadow: 0px 0px 20px 5px rgb(15 15 15 / 10%);
+  }
+  .list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  /* home */
+  .grilla {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .gridIndex1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .gridIndex2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .gridIndex3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .gridIndex4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .imgsIndex {
+    width: 100%;
+    height: 100%;
+  }
+  .childIndex {
+    width: 100%;
+  }
+  .childIndex2 {
+    height: 600px;
+    width: 360px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .childAside {
+    width: 100%;
+  }
+  /* nosotros */
+
+  .flexContainerNosotros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .childNosotros {
+    height: 800px;
+    width: 350px;
+    margin: 15px 15px 15px 15px;
+    box-shadow: 0px 0px 20px 5px rgb(15 15 15 / 10%);
+  }
+  /* footer */
+  .gridFooter {
+    display: flex;
+    flex-direction: column;
+    height: 1300px;
+  }
+  .logoFooter {
+    display: flex;
+    flex-direction: column;
+    height: 290px;
+  }
+  .divFooter2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Galeria */
+
+  .gridGaleria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+  }
+  .divGaleria1 {
+    height: 350px;
+    width: 350px;
+  }
+  .divGaleria2 {
+    height: 350px;
+    width: 350px;
+  }
+  .divGaleria3 {
+    height: 350px;
+    width: 350px;
+  }
+  .divGaleria4 {
+    height: 350px;
+    width: 350px;
+  }
+  .divGaleria5 {
+    height: 350px;
+    width: 350px;
+  }
+  .divGaleria6 {
+    height: 350px;
+    width: 350px;
+  }
+}
