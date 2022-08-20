@@ -106,6 +106,7 @@ a {
   /* box-shadow: 0px 0px 20px 5px rgb(15 15 15 / 10%); */
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .divIconoFooter {
   display: flex;
@@ -265,6 +266,7 @@ flex-direction: column;
   /* background-color: aqua; */
   justify-content: space-evenly;
   flex-direction: row;
+  align-items: center;
 }
 .childNosotros {
   /* background-color: brown; */
@@ -565,3 +567,5 @@ input:focus, textarea:focus {
 
   /* ya esta puesto :) */
 }
+
+
