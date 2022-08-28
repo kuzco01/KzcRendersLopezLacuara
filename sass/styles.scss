@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto+Slab:wght@200&family=Square+Peg&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap');
+@import"fuentes";
+@import"variables";
 * {
   margin: 0%;
   padding: 0%;
@@ -9,14 +9,14 @@
   display: flex;
 }
 h1 {
-  font-family: 'Roboto Slab', serif;
+  font-family: $ROBOTO;
   font-size: 30px;
   text-align: center;
   margin-top: 30px;
   margin-bottom: 20px;
 }
 .h1SeccionesTitulo{
-  font-family: 'Roboto Slab', serif;
+  font-family: $ROBOTO;
   font-size: 30px;
   text-align: center;
   margin-top: 30px;
@@ -24,13 +24,13 @@ h1 {
   font-weight: bold;
 }
 h2 {
-  font-family: "Poppins", sans-serif;
+  font-family: $POPPINS;
   font-size: 25px;
   text-align: center;
   margin: 20px 10px 0px 10px;
 }
 p {
-  font-family: "Poppins", sans-serif;
+  font-family: $POPPINS;
   font-weight: bolder;
   color: black;
   font-size: 15px;
@@ -58,13 +58,13 @@ nav {
 a {
   text-decoration: none;
   color: white;
-  font-family: "Poppins", sans-serif;
+  font-family: $POPPINS;
   font-size: 15px;
 }
 /* footer */
 .h3IconosFooter{
   font-size: medium;
-  font-family: "Poppins", sans-serif;
+  font-family: $POPPINS;
   color: black;
   font-weight: bolder;
 
@@ -203,7 +203,7 @@ flex-direction: column;
 }
 
 .tituloSectionHomeBlanco{
-  font-family: 'EB Garamond', serif;
+  font-family: $GARAMOND;
   font-size:xx-large;
   color: white;
   font-weight: lighter;
@@ -211,12 +211,12 @@ flex-direction: column;
 .descripcionSectionHomeBlanco{
   color: white;
   font-size: x-large ;
-  font-family: 'EB Garamond', serif;
+  font-family: $GARAMOND;
   font-weight: lighter;
 
 }
 .tituloSectionHomeNegro{
-  font-family: 'EB Garamond', serif;
+  font-family: $GARAMOND;
   font-size:xx-large;
   color: black;
   font-weight: lighter;
@@ -224,7 +224,7 @@ flex-direction: column;
 .descripcionSectionHomeNegro{
   color: black;
   font-size: x-large ;
-  font-family: 'EB Garamond', serif;
+  font-family: $GARAMOND;
   font-weight: lighter;
 
 }
@@ -326,7 +326,7 @@ img {
 }
 /* contacto */
 
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
 
 
 
