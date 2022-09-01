@@ -1,9 +1,134 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto+Slab:wght@200&family=Square+Peg&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap");
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-.colorDivRedes, .divIconoFooter {
+.colorDivRedes {
   background-color: rgb(170, 169, 169);
   border-radius: 10px;
+}
+
+.h3IconosFooter {
+  font-size: medium;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  font-weight: bolder;
+}
+
+.gridFooter {
+  display: grid;
+  background-color: grey;
+  width: 100%;
+  grid-template-areas: "div1 div1 div2" "div3 div3 div3";
+  height: 400px;
+  /* box-shadow: 0px 0px 20px 5px rgb(15 15 15 / 10%); */
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.divFooter1 {
+  /* background-color: brown; */
+  grid-area: div1;
+  margin: 15px;
+  /* box-shadow: 0px 0px 20px 5px rgb(15 15 15 / 10%); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.divFooter2 {
+  /* background-color: brown; */
+  grid-area: div2;
+  margin: 15px;
+  /* box-shadow: 0px 0px 20px 5px rgb(15 15 15 / 10%); */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.divFooter3 {
+  /* background-color: brown; */
+  grid-area: div3;
+  margin: 15px;
+  /* box-shadow: 0px 0px 20px 5px rgb(15 15 15 / 10%); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fondoDivIconoRedes {
+  background-color: white;
+  border-radius: 2px;
+}
+
+.divIconoFooter {
+  display: flex;
+  width: 80px;
+  height: 120px;
+  /* background-color: aqua; */
+  flex-direction: column;
+  align-items: center;
+}
+
+.icono {
+  width: 60px;
+  height: 60px;
+}
+
+.logoFooter {
+  /* background-color: aqua; */
+  width: 1200px;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.iconoKzc {
+  width: 30%;
+  height: 100%;
+}
+
+.flexContainerNosotros {
+  background-color: aqua;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.childNosotros1 {
+  background-color: red;
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.childNosotros2 {
+  background-color: black;
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.granChildNosotros {
+  height: 100%;
+  width: 30%;
+  background-color: aqua;
+}
+
+.imgsNosotros {
+  width: 100%;
+  height: 100%;
+}
+
+.granChildNosotros2 {
+  height: 40%;
+  width: 60%;
+  background-color: yellow;
 }
 
 * {
@@ -78,89 +203,6 @@ a {
 }
 
 /* footer */
-.h3IconosFooter {
-  font-size: medium;
-  font-family: "Poppins", sans-serif;
-  color: black;
-  font-weight: bolder;
-}
-
-.gridFooter {
-  display: grid;
-  background-color: grey;
-  width: 100%;
-  grid-template-areas: "div1 div1 div2" "div3 div3 div3";
-  height: 400px;
-  /* box-shadow: 0px 0px 20px 5px rgb(15 15 15 / 10%); */
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
-.divFooter1 {
-  /* background-color: brown; */
-  grid-area: div1;
-  margin: 15px;
-  /* box-shadow: 0px 0px 20px 5px rgb(15 15 15 / 10%); */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.divFooter2 {
-  /* background-color: brown; */
-  grid-area: div2;
-  margin: 15px;
-  /* box-shadow: 0px 0px 20px 5px rgb(15 15 15 / 10%); */
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.divFooter3 {
-  /* background-color: brown; */
-  grid-area: div3;
-  margin: 15px;
-  /* box-shadow: 0px 0px 20px 5px rgb(15 15 15 / 10%); */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.fondoDivIconoRedes {
-  background-color: white;
-  border-radius: 2px;
-}
-
-.divIconoFooter {
-  display: flex;
-  width: 80px;
-  height: 120px;
-  /* background-color: aqua; */
-  flex-direction: column;
-  align-items: center;
-}
-
-.icono {
-  width: 60px;
-  height: 60px;
-  height: 65px;
-  width: 65px;
-}
-
-.logoFooter {
-  /* background-color: aqua; */
-  width: 1200px;
-  height: 200px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.iconoKzc {
-  width: 30%;
-  height: 100%;
-}
-
 /* home */
 .flexContainer1Home {
   background-color: aqua;
@@ -291,35 +333,6 @@ a {
   width: 100%;
   height: 266px;
   margin: 0px 0px 20px 0px;
-}
-
-/* Nosotros */
-.flexContainerNosotros {
-  display: flex;
-  /* background-color: aqua; */
-  justify-content: space-evenly;
-  flex-direction: row;
-  align-items: center;
-}
-
-.childNosotros {
-  /* background-color: brown; */
-  height: 800px;
-  width: 400px;
-  margin: 15px 15px 15px 15px;
-  display: flex;
-  box-shadow: 0px 0px 20px 5px rgba(15, 15, 15, 0.1);
-  flex-direction: column;
-}
-
-.divImgsNosotros {
-  width: 100%;
-  height: 45%;
-}
-
-.imgsNosotros {
-  width: 100%;
-  height: 100%;
 }
 
 /* Galeria */
