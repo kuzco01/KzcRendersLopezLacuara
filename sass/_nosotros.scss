@@ -1,12 +1,11 @@
 .flexContainerNosotros{
-    background-color: aqua;
+    // background-color: aqua;
     display: flex;
     width: 100%;
     height: 100vh;
     flex-direction: column;
 }
 .childNosotros1{
-    background-color: red;
     height: 50%;
     width: 100%;
     display: flex;
@@ -16,7 +15,7 @@
 
 }
 .childNosotros2{
-    background-color: black;
+    // background-color: black;
     height: 50%;
     width: 100%;
     display: flex;
@@ -26,7 +25,7 @@
 .granChildNosotros{
     height: 100%;
     width: 30%;
-    background-color: aqua;
+    // background-color: aqua;
     
 }
 .imgsNosotros{
@@ -34,8 +33,16 @@
     height: 100%;
 }
 .granChildNosotros2{
-    height: 40%;
+    height: 45%;
     width: 60%;
-    background-color: yellow;
+    background-color: white;
+    box-shadow: 0px 0px 20px 5px rgb(15 15 15 / 20%);
+    transition: 0.3s transform;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
+}
+.granChildNosotros2:hover{
+    transform: scale(1.1);
 }
