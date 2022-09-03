@@ -487,6 +487,22 @@ input:focus, textarea:focus {
   /* Galeria */
 
   /* ya esta puesto :) */
+  /* footer */
+  .gridFooter {
+    display: flex;
+    flex-direction: column;
+    height: 1300px;
+  }
+  .logoFooter {
+    display: flex;
+    flex-direction: column;
+    height: 290px;
+  }
+  .divFooter2 {
+    display: flex;
+    flex-direction: column;
+  }
+
 }
 
 
